@@ -4,9 +4,25 @@ As web developers, we understand the uses of a good package manager.  Things lik
 
 Unfortunately, the number of available package managers has skyrocketed.  Enter PM².
 
-**Please Note**
+**Please Note** _PM² is early beta software, some functionality such as installing and updating package managers may not work right away._
 
-PM² is early beta software, some functionality such as installing and updating package managers may not work right away.
+## Installation
+
+- Download the `pm².php` file from `https://raw.github.com/dotink/pmsquared/master/pm%C2%B2.php`
+
+## Usage
+
+```
+php <path to pm².php> <command> [<arg>]
+```
+
+### Commands
+
+- help
+- install
+- list
+- update
+- upgrade
 
 ## FAQ
 
