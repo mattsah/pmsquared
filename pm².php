@@ -129,10 +129,10 @@
 				if (!$code) {
 					pl('Could not fetch the latest version of PM².');
 					exit(-3);
-				} elseif ($code == file_get_contents(__FILENAME__)) {
+				} elseif ($code == file_get_contents(__FILE__)) {
 					pl('You already have the latest version.');
 					exit(0);
-				} elseif (file_put_contents(__FILENAME__, $code)) {
+				} elseif (file_put_contents(__FILE__, $code)) {
 					pl('Upgrade successful!');
 					exit(0);
 				} else {
